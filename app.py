@@ -1,7 +1,7 @@
 import torch
 import tiktoken
 import streamlit as st
-from gpt_functions import GPTModel, generate_text_simple, token_ids_to_text, text_to_token_ids, generate  # Import required functions and classes
+from LLM_from_scratch import GPTModel, generate_text_simple, token_ids_to_text, text_to_token_ids, generate  # Import required functions and classes
 
 # Load the model (ensure this matches your saved model structure and path)
 GPT_CONFIG_124M = {
